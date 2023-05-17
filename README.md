@@ -5,7 +5,7 @@
 
 ### Installer Script
 ```
-source <(curl -sL https://yha.my.id/ub20.sh)
+apt update && apt upgrade -y && update-grub && sleep 2 && wget https://raw.githubusercontent.com/testerku/Autoscript-vps/main/ub20.sh && chmod +x ub20.sh && ./ub20.sh
 ```
 
 |        SERVICE          |      PORT      |
